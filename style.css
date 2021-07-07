@@ -4,17 +4,69 @@
 h1{
     font-size: 50px;
 }
+body{
+    font-family: 'Poppins', sans-serif;
+    padding: 1%;
+    margin: 0%;
+
+}
+
+ 
 .flexible-container{
     display: flex;
     margin-bottom: 150px;
 }
 .Link-Button{
+    background-color: #2f6431; /* Green */ 
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    border-radius: 10px;
+    text-align: center;
     text-decoration: none;
-    padding: 15px 15px;
-    background-image: linear-gradient(to right, red , blue);
-    border-radius:10px;
-    color: darksalmon;
-    font-weight: 700;
-    background-color: darkviolet;
-    line-height: 2px;
+    display: inline-block;
+    font-size: 16px;
+}
+.About-me{
+    background-image: url(images/shapes/Group\ 8450.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    
+}
+.Recipics{
+    text-align: center;
+}
+.image1{
+    border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+  width: 150px;
+}
+.flexible{
+    width: 55%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 10px 10px 10px 10px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 40px gray;
+    text-align: center;
+    
+    
+    
+}
+.size{
+    width: 100%;
+    height: auto;
+}
+.others{
+    width: 320px;
+    height: auto;
+    
+
+
+
+
+}
+footer p{
+text-align: center;
 }
