@@ -1,0 +1,20 @@
+.Heading{
+    color: darkmagenta;
+}
+h1{
+    font-size: 50px;
+}
+.flexible-container{
+    display: flex;
+    margin-bottom: 150px;
+}
+.Link-Button{
+    text-decoration: none;
+    padding: 15px 15px;
+    background-image: linear-gradient(to right, red , blue);
+    border-radius:10px;
+    color: darksalmon;
+    font-weight: 700;
+    background-color: darkviolet;
+    line-height: 2px;
+}
